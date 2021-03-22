@@ -1,24 +1,42 @@
 import styled from 'styled-components';
 import CardPokemonBackground from '../../Assets/CardPokemonBackground.png';
 
+export const Header = styled.div`
+  background-color: salmon;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+`
+
+export const TypeCard = styled.div`
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 15px;
+  width: 420px;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  `;
+
 export const DetailsContainer = styled.div`
   display: flex;
   background-color: #fdf5f4;
   height: 100vh;
   width: 100vw;
+  justify-content: center;
 `;
 
 export const CardPokemon = styled.div`
-  width: 45vw;
+  width: 550px;
   border-radius: 15px;
-  height: 70vh;
-  margin: auto;
-  h3 {
-    margin-left: 1vw;
-  }
+  height: 550px;
 `;
 
-export const LeftContainer = styled.div`
+export const BackButtonContainer = styled.div`
   img {
     height: 3vh;
     cursor: pointer;
@@ -28,25 +46,27 @@ export const LeftContainer = styled.div`
     align-items: center;
     transform: translateX(-7vw);
   }
-  p {
-    margin-left: 1vw;
-    cursor: pointer;
-  }
   margin-left: 10vw;
 `;
+
+export const LeftContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  `
 
 export const CardPhoto = styled.div`
   background-image: url(${CardPokemonBackground});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 35vw;
+  margin-top: 20px;
+  width: 300px;
   border-radius: 15px;
-  height: 50%;
+  height: 300px;
   display: flex;
   justify-content: center;
   img {
-    height: 20vh;
+    height: 190px;
     align-self: center;
   }
 `;
@@ -55,12 +75,11 @@ export const CardDetails = styled.div`
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: 35vw;
+  width: 400px;
   border-radius: 15px;
-  height: 70%;
-  transform: translateY(-30px);
-
+  height: 550px;
   line-height: 0.1;
+  margin-top: 45px;
 `;
 
 export const ContainerAtaques = styled.div`
