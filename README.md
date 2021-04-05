@@ -2,6 +2,9 @@
 
 Esse projeto é uma pokedex desenvolvida a partir da PokeAPI, nessa aplicação é possível ver uma lista com os pokemons de primeira geração e seus detalhes.
 
+Projeto desenvolvido com Create React App.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
