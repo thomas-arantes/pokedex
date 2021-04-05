@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Pokedex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto é uma pokedex desenvolvida a partir da PokeAPI, nessa aplicação é possível ver uma lista com os pokemons de primeira geração e seus detalhes.
 
 ## Available Scripts
 
