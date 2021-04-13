@@ -3,7 +3,7 @@ import {
   CardPokemon,
   CardPhoto,
   CardDetails,
-  ContainerAtaques,
+  ContainerAttacks,
   CardPowers,
   Header,
   TypeCard,
@@ -89,16 +89,14 @@ export function DetailsPage() {
             <p>{pokemonStats.length ? `${pokemonStats[5].stat.name} :`: ""}<strong>{pokemonStats.length ? `${pokemonStats[5].base_stat} `: ""}</strong></p>
           </CardPowers>
         <h3>Principais Ataques</h3>
-          <ContainerAtaques>
+          <ContainerAttacks>
             <p>{pokemonMoves.length ? pokemonMoves[0].move.name : ""}</p>
             <p>{pokemonMoves.length ? pokemonMoves[1].move.name : ""}</p>
             <p>{pokemonMoves.length ? pokemonMoves[2].move.name : ""}</p>
             <p>{pokemonMoves.length ? pokemonMoves[3].move.name : ""}</p>
             <p>{pokemonMoves.length ? pokemonMoves[4].move.name : ""}</p>
-          </ContainerAtaques>
+          </ContainerAttacks>
       </CardDetails>
-
-
     </DetailsContainer>
   );
 }

@@ -82,7 +82,7 @@ export const CardDetails = styled.div`
   margin-top: 45px;
 `;
 
-export const ContainerAtaques = styled.div`
+export const ContainerAttacks = styled.div`
   display: flex;
   flex-wrap: wrap;
   height: 30%;
